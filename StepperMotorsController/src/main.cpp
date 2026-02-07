@@ -21,6 +21,7 @@ char pass[] = "Password123"; // your network password (use for WPA, or use as ke
 
 bool const DEBUG_PRINTS = true; // Set to true to enable debug prints
 int const PACKET_SIZE = 6;
+//uint8_t lastSentPacket[1] = {255};
 uint8_t lastSentPacket[6] = {255, 255, 255, 255, 255, 255};
 
 int status = WL_IDLE_STATUS;
